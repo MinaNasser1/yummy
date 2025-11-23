@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="d-flex">
+      <nav class="sidebar bg-light text-light flex-column p-3">
+        <div class="mb-4 text-center">
+          <img class="w-100" src="./img/logo.png" alt="" />
+        </div>
+        <ul class="nav flex-column mb-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./index.html"
+              ><i class=""></i>Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="/categories.html"
+              ><i class=""></i>categories</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class=""></i>Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#"><i class=""></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./"><i class=""></i>Contact</a>
+          </li>
+        </ul>
+        <div class="mt-auto text-center">
+          <i class="fas fa-globe"></i>
+        </div>
+      </nav>
+
+      <main class="main-content flex-grow-1">
+        <div class="container-fluid container p-4">
+          <div id="mealsContainer" class="row g-4"></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
